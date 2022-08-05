@@ -15,7 +15,7 @@
         "wdio-wait-for": "^2.2.6"
     },
     "scripts": {
-        "android": ".\node_modules\.bin\wdio config/wdio.android.app.conf.js",
+        "android": ".\node_modules\.bin\wdio config\wdio.android.app.conf.js",
         "ios": "wdio run config/wdio.ios.app.conf.js"
     }
 }
